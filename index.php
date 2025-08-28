@@ -49,10 +49,10 @@ $errorMiddleware = $app->addErrorMiddleware(true, true, true);
 // Database configuration
 $container->set('db', function () {
     // Update these values with your cPanel PostgreSQL credentials
-    $dbHost = '127.0.0.1'; // or your cPanel PostgreSQL host
-    $dbName = 'ubmis_ngo';
-    $dbUser = 'ubmis_mugisha';
-    $dbPass = '23571113#dDarius';
+    $dbHost = 'dpg-d2nbbmq4d50c73e5ovug-a'; // or your cPanel PostgreSQL host
+    $dbName = 'blog_0bcu';
+    $dbUser = 'blog_0bcu_user';
+    $dbPass = 'postgresql://blog_0bcu_user:RXAJHCfB4v6iU9gaNBHrA06QmCzZxLFK@dpg-d2nbbmq4d50c73e5ovug-a/blog_0bcu';
     
     try {
         $dsn = "pgsql:host=$dbHost;dbname=$dbName";
